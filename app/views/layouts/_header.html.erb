@@ -10,11 +10,11 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
             <%=link_to"Log in","/",class:"nav-link" %>
-            <li class="nav-item active">
-            <%=link_to"Log out","/",class:"nav-link" %>
+            <%# <li class="nav-item active"> %>
+            <%#=link_to"Log out","/",class:"nav-link" %>
             </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
+        <%# </ul>
+        <ul class="navbar-nav ml-auto"> %>
             </li>
             <li class="nav-item active">
             <%=link_to"Dashboad","/",class:"nav-link" %>
@@ -26,9 +26,9 @@
             <%=link_to"Members","/",class:"nav-link" %>
             </li>
             <li class="nav-item dropdown">
-            <%= link_to "user_name", "/", class:"nav-link dropdown-toggle",role:"button",:data=>{:toggle=>"dropdown"} ,:aria=>{:haspopup=>"true"} ,:aria=>{:expanded=>"false"}%>
+            <%= link_to "", "/", class:"nav-link dropdown-toggle",role:"button",:data=>{:toggle=>"dropdown"} ,:aria=>{:haspopup=>"true"} ,:aria=>{:expanded=>"false"}%>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <%= link_to "user_name", "/", class:"dropdown-item"%>
+                <%#= link_to "user_name", "/", class:"dropdown-item"%>
                 <%= link_to "profile", "/", class:"dropdown-item"%>
                 <%= link_to "Setting", "/", class:"dropdown-item"%>
                 <%= link_to "Logout", "/", class:"dropdown-item"%>
